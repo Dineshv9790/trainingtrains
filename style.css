@@ -200,7 +200,7 @@ footer{background:#1a1a2e;color:#ccc;padding:50px 40px 20px;}
   .hamburger{display:block;}
   .footer-grid{grid-template-columns:1fr 1fr;}
   .hero h1{font-size:26px;}
-  .top-bar{flex-direction:column;gap:6px;text-align:center;}
+  .top-bar{flex-direction:column;gap:10px;text-align:center;}
   .hero-social{right: 15px;top: 153px;}
   .social-btn{width: 48px;height: 48px;font-size: 20px;}
 }
