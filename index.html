@@ -144,54 +144,113 @@
 <div class="mobile-menu" id="mobileMenu">
   <button class="close-btn" onclick="closeMenu()">✕</button>
   <ul>
+    <li><span onclick="closeMenu();showPage('home')">Home</span></li>
     <li class="mobile-drop">
    <span>PHP ▾</span>
    <ul class="mobile-sub">
-      ...
+      <li><span onclick="showPage('popularphp')">Popular PHP</span></li>
+        <li><span onclick="showPage('showallphp')">All PHP Scripts</span></li>
+        <li><span onclick="showPage('formsphp')">Forms</span></li>
+        <li><span onclick="showPage('databasephp')">Database</span></li>
+        <li><span onclick="showPage('shoppingphp')">Shopping</span></li>
+        <li><span onclick="showPage('imagesphp')">Images & Media</span></li>
+        <li><span onclick="showPage('navigationphp')">Navigation</span></li>
+        <li><span onclick="showPage('socialphp')">Social Networks</span></li>
+        <li><span onclick="showPage('calendersphp')">Calendars</span></li>
+        <li><span onclick="showPage('searchphp')">Search & Filter</span></li>
+        <li><span onclick="showPage('miscellaneousphp')">Miscellaneous</span></li>
    </ul>
 </li>
 
 <li class="mobile-drop">
    <span>JavaScript ▾</span>
    <ul class="mobile-sub">
-      ...
+      <li><span onclick="showPage('popularjavascript')">Popular JS</span></li>
+        <li><span onclick="showPage('showalljavascript')">All JS Tools</span></li>
+        <li><span onclick="showPage('animatedjavascript')">Animated SVG</span></li>
+        <li><span onclick="showPage('formsjavascript')">Forms</span></li>
+        <li><span onclick="showPage('slidersjavascript')">Sliders & UI</span></li>
+        <li><span onclick="showPage('tablesjavascript')">Tables</span></li>
+        <li><span onclick="showPage('mediajavascript')">Media</span></li>
+        <li><span onclick="showPage('navigationjavascript')">Navigation</span></li>
+        <li><span onclick="showPage('socialjavascript')">Social</span></li>
+        <li><span onclick="showPage('calendersjavascript')">Calendars</span></li>
    </ul>
 </li>
 
 <li class="mobile-drop">
    <span>CSS ▾</span>
    <ul class="mobile-sub">
-      ...
+      <li><span onclick="showPage('popularcss')">Popular CSS</span></li>
+        <li><span onclick="showPage('showallcss')">All CSS</span></li>
+        <li><span onclick="showPage('animationcss')">Animations</span></li>
+        <li><span onclick="showPage('buttoncss')">Buttons</span></li>
+        <li><span onclick="showPage('formscss')">Forms</span></li>
+        <li><span onclick="showPage('layoutscss')">Layouts</span></li>
+        <li><span onclick="showPage('navigationcss')">Navigation</span></li>
+        <li><span onclick="showPage('pricingscss')">Pricing</span></li>
+        <li><span onclick="showPage('tabscss')">Tabs & Sliders</span></li>
+        <li><span onclick="showPage('chartscss')">Charts</span></li>
    </ul>
 </li>
 
 <li class="mobile-drop">
    <span>WordPress ▾</span>
    <ul class="mobile-sub">
-      ...
+      <li><span onclick="showPage('popularword')">Popular WP</span></li>
+        <li><span onclick="showPage('showallword')">All WordPress</span></li>
+        <li><span onclick="showPage('wpthemes')">Themes</span></li>
+        <li><span onclick="showPage('ecommerceword')">Ecommerce</span></li>
+        <li><span onclick="showPage('formsword')">Forms</span></li>
+        <li><span onclick="showPage('seoword')">SEO</span></li>
+        <li><span onclick="showPage('membershipword')">Membership</span></li>
+        <li><span onclick="showPage('socialnetworkingword')">Social</span></li>
+        <li><span onclick="showPage('galleriesword')">Galleries</span></li>
+        <li><span onclick="showPage('mediaword')">Media</span></li>
    </ul>
 </li>
 
 <li class="mobile-drop">
    <span>Mobile ▾</span>
    <ul class="mobile-sub">
-      ...
+      <li><span onclick="showPage('popularmobile')">Popular Mobile</span></li>
+        <li><span onclick="showPage('showallmobile')">All Mobile</span></li>
+        <li><span onclick="showPage('androidmobile')">Android</span></li>
+        <li><span onclick="showPage('iosmobile')">iOS</span></li>
+        <li><span onclick="showPage('fluttermobile')">Flutter</span></li>
+        <li><span onclick="showPage('livewebmobile')">React Native</span></li>
+        <li><span onclick="showPage('titaniummobile')">Titanium</span></li>
    </ul>
 </li>
 
 <li class="mobile-drop">
    <span>Ecommerce ▾</span>
    <ul class="mobile-sub">
-      ...
+       <li><span onclick="showPage('showallecommerce')">All Ecommerce</span></li>
+        <li><span onclick="showPage('wooecommerce')">WooCommerce</span></li>
+        <li><span onclick="showPage('magentaecommerce')">Magento</span></li>
+        <li><span onclick="showPage('prestashopecommerce')">PrestaShop</span></li>
+        <li><span onclick="showPage('opencartecommerce')">OpenCart</span></li>
+        <li><span onclick="showPage('easyecommerce')">Easy Digital</span></li>
+        <li><span onclick="showPage('zencartecommerce')">ZenCart</span></li>
    </ul>
 </li>
 
 <li class="mobile-drop">
    <span>AI Tools ▾</span>
    <ul class="mobile-sub">
-      ...
+      <li><span onclick="showPage('allaitools')">All AI Tools</span></li>
+        <li><span onclick="showPage('popularaitools')">Popular AI</span></li>
+        <li><span onclick="showPage('chatbotsaitools')">Chatbots</span></li>
+        <li><span onclick="showPage('imageaitools')">Image AI</span></li>
+        <li><span onclick="showPage('writersaitools')">AI Writers</span></li>
    </ul>
 </li>
+    <li><span onclick="closeMenu();showPage('featured')">Featured</span></li>
+    <li><span onclick="closeMenu();showPage('net')">.NET</span></li>
+    <li><span onclick="closeMenu();showPage('about')">About</span></li>
+    <li><span onclick="closeMenu();showPage('contact')">Contact</span></li>
+    <li><span onclick="closeMenu();showPage('signup')">Signup</span></li>
   </ul>
 </div>
 
