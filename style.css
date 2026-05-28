@@ -23,7 +23,7 @@ button{cursor:pointer;font-family:inherit;}
 .sub-menu li a,.sub-menu li span{padding:9px 18px;font-size:13px;display:block;color:#444;}
 .sub-menu li a:hover,.sub-menu li span:hover{background:#f0f9e8;color:#7ac943;}
 .nav-btns{gap:5px;}
-.nav-btns button{ padding:6px 12px;font-size:11px;border-radius:6px;}
+.nav-btns button{padding:6px 12px;font-size:11px;border-radius:6px;}
 .logo{ font-size:18px;}
 .logo span{font-size:18px;}
 .login-btn{background:transparent;border:1px solid #7ac943;color:#7ac943;}
